@@ -1,0 +1,44 @@
+.ListInput > input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  width: 120%;
+}
+
+.header-first {
+  display: flex;
+}
+
+.header-first > .hamburger {
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+@media screen and (max-width: 1200px) {
+  .ListInput > input {
+    padding: 6px;
+    width: 100%;
+  }
+
+
+  .header-first > .hamburger {
+    font-size: 26px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ListInput > input {
+    padding: 6px;
+    width: 90%;
+    font-size: 10px;
+  }
+
+
+  .header-first > .hamburger {
+    font-size: 23px;
+    margin-right: 10px;
+  }
+}

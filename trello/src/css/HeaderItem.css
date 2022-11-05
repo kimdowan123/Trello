@@ -1,0 +1,94 @@
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+header > div {
+  width: 33%;
+}
+
+.Logo {
+  color: white;
+  font-size: 25px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.SignOut {
+  display: flex;
+  justify-content: flex-end;
+}
+.SignOut > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  margin-top: 4px;
+  margin-left: 2%;
+}
+.userName {
+  color: white;
+  margin-right: 30px;
+  padding: 7px;
+}
+.SignOutLogo {
+  padding: 7px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  header {
+    padding: 15px;
+  }
+
+  .Logo {
+    color: white;
+    font-size: 23px;
+  }
+
+  .SignOut > img {
+    width: 20px;
+    height: 20px;
+  }
+  .userName {
+    margin-right: 30px;
+    padding: 5px;
+  }
+  .SignOutLogo {
+    padding: 4px;
+
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .Logo {
+    color: white;
+    font-size: 20px;
+  }
+
+  .SignOut > img {
+    display: none;
+  }
+  .userName {
+    display: none;
+  }
+  .SignOutLogo {
+    padding: 3px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+}

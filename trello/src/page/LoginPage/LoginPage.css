@@ -1,0 +1,312 @@
+.LoginHome {
+  background-color: #273452;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  width: 100%;
+  height: 100vh;
+}
+
+.hightBox {
+  height: 1px;
+}
+.AllBox {
+  display: flex;
+  margin: 0 auto;
+  border: 0;
+  width: 900px;
+  height: 500px;
+  margin-top: 5%;
+  background-image: url(../../assets/universe.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 25px;
+  box-sizing: initial;
+}
+
+.LoginBox-Trello {
+  opacity: 1;
+  width: 60%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.LoginBox-Trello > p {
+  margin-top: 200px;
+  font-size: 40px;
+}
+.LoginBox {
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 4px 2px rgb(105, 103, 103);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  transform: inherit;
+  padding: 20px;
+  width: 40%;
+}
+.LoginBox > h1 {
+  text-align: center;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+
+.LoginBox > label {
+  font-size: 15px;
+  color: gray;
+  text-align: center;
+}
+
+.LoginBox > label > input {
+  width: 85%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  background-color: whitesmoke;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+.LoginBox > label > input:focus {
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+.LoginBox > button {
+  padding: 14px;
+  margin-top: 15px;
+  width: 90%;
+  border: none;
+  background-color: #273452;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 4.5%;
+}
+
+.LoginBox > p {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  color: gray;
+}
+
+.LoginBox > .LoginBox-text {
+  margin-top: 0px;
+  margin: 0 auto;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: gray;
+  padding: 10px;
+  width: 140px;
+  color: white;
+}
+
+/* 회원가입 css */
+.black-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.black-modal-hidden {
+  display: none;
+}
+.white-modal {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 30rem;
+  height: 90%;
+  border-radius: 5px;
+  padding: 20px;
+}
+.white-modal > .image-profile {
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 30px;
+}
+.white-modal > .image-profile > img {
+  width: 100px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.white-modal > h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.user-message {
+  display: flex;
+  width: 80%;
+  font-weight: bold;
+  margin-left: 15%;
+}
+.user-input {
+  margin: 0 auto;
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.user-input > input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid gray;
+  margin-bottom: 20px;
+}
+
+.white-modal > button {
+  background-color: rgb(105, 118, 241);
+  color: white;
+  border: 0;
+  border-radius: 25px;
+  padding: 5px;
+  margin-left: 15%;
+  width: 71%;
+  margin-top: 15px;
+  font-size: 18px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.white-modal > .xmarkIcon {
+  font-size: 30px;
+  margin-left: 95%;
+  cursor: pointer;
+}
+
+.isNaming {
+  color: cornflowerblue;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.isNamingFalse {
+  margin-top: 5px;
+  margin-left: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.IdInput {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.IdInput > input {
+  padding: 10px;
+  width: 60%;
+  margin-left: 6.5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.IdInput > button {
+  padding: 9px;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .AllBox {
+    width: 600px;
+    height: 400px;
+    margin-top: 10%;
+  }
+
+  .LoginBox-Trello > p {
+    margin-top: 180px;
+    font-size: 30px;
+  }
+
+  .LoginBox > h1 {
+    font-size: 25px;
+  }
+
+  .LoginBox > label > input {
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .LoginBox > button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .LoginBox>span{
+    font-size: 15px;
+  }
+  .LoginBox > p {
+    padding: 6px;
+    margin-top: 10px;
+  }
+
+  .LoginBox > .LoginBox-text {
+    padding: 7px;
+    margin-top: 10px;
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .AllBox {
+    width: 300px;
+    height: 450px;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+
+  }
+  .LoginBox-Trello{
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .LoginBox-Trello > p {
+    margin-top:10px;
+    font-size: 27px;
+  }
+  .LoginBox {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+  .LoginBox > h1 {
+    font-size: 20px;
+  }
+
+  .LoginBox > label > input {
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .LoginBox > button {
+    padding: 5px;
+    margin-top: 7px;
+    font-size: 16px;
+  }
+ 
+  .LoginBox > p {
+    padding: 5px;
+    margin-top: 15px;
+  }
+
+  .LoginBox > .LoginBox-text {
+    padding: 7px;
+    margin-top: 12px;
+    width: 120px;
+  }
+}

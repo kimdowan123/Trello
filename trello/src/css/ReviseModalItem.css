@@ -1,0 +1,32 @@
+.whiteBG {
+  height: 20%;
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  cursor: initial;
+}
+
+.whiteBG-hidden {
+  display: none;
+}
+
+
+.whiteBG > input {
+  padding: 15px;
+}
+
+.whiteBG > .xmarkIcon {
+  font-size: 25px;
+  margin-left: 90%;
+  margin-top: 3%;
+  cursor: pointer;
+  color: red;
+}
+
+

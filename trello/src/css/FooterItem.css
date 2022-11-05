@@ -1,0 +1,42 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 180px;
+  padding: 20px;
+  margin-top: 100px;
+}
+footer > div {
+  width: 210px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer > div > a > img {
+  margin-top: 30px;
+  width: 50px;
+  cursor: pointer;
+}
+footer > div > p {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  color: black;
+  width: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    height: 140px;
+    margin-top: 50px;
+  }
+
+  footer > div > a > img {
+    margin-top: 20px;
+    width: 30px;
+  }
+  footer > div > p {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
