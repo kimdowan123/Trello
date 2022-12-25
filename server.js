@@ -19,7 +19,7 @@ const io = new Server(http);
 const qs = require("query-string");
 
 var db;
-MongoClient.connect('mongodb+srv://kdw0247:324ehdhks@cluster0.kgri4.mongodb.net/?retryWrites=true&w=majority', { useUnifiedTopology: true }, function (에러, client) {
+MongoClient.connect('', { useUnifiedTopology: true }, function (에러, client) {
 	if (에러) return console.log(에러);
 	db = client.db('trello');
 	console.log('db연결완료')
